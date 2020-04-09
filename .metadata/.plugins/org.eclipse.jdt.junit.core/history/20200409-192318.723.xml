@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="primeira_automacao" tests="15" started="15" failures="2" errors="0" ignored="0">
+  <testsuite name="primeira_automacao.Runner" time="0.112">
+    <testsuite name="Funcionalidade: Aprender Cucumber" time="0.112">
+      <testsuite name="Cenario: Deve executar especifica��o" time="0.006">
+        <testcase name="Dado que criei o arquivo corretamente" classname="Cenario: Deve executar especifica��o" time="0.003"/>
+        <testcase name="Quando executa-los" classname="Cenario: Deve executar especifica��o" time="0.003"/>
+        <testcase name="Entao a especificacao deve finalizar com sucesso" classname="Cenario: Deve executar especifica��o" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenario: Deve incrementar contador" time="0.003">
+        <testcase name="Dado que o valor do contador e 15" classname="Cenario: Deve incrementar contador" time="0.001"/>
+        <testcase name="Quando eu incrementar 3" classname="Cenario: Deve incrementar contador" time="0.002"/>
+        <testcase name="Entao o valor do contador sera 18" classname="Cenario: Deve incrementar contador" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenario: Deve incrementar contador" time="0.002">
+        <testcase name="Dado que o valor do contador e 123" classname="Cenario: Deve incrementar contador" time="0.0"/>
+        <testcase name="Quando eu incrementar 35" classname="Cenario: Deve incrementar contador" time="0.001"/>
+        <testcase name="Entao o valor do contador sera 158" classname="Cenario: Deve incrementar contador" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenario: Deve calcular atraso na entrega" time="0.009">
+        <testcase name="Dado que a entrega eh dia 05/04/2020" classname="Cenario: Deve calcular atraso na entrega" time="0.004"/>
+        <testcase name="Quando a entrega atrasar em 2 dias" classname="Cenario: Deve calcular atraso na entrega" time="0.004"/>
+        <testcase name="Entao a entrega sera efetuada em 07/04/2020" classname="Cenario: Deve calcular atraso na entrega" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenario: Deve calcular atraso na entrega da China" time="0.078" incomplete="true">
+        <failure>
+          <expected>07/06/2020</expected>
+          <actual>07/04/2020</actual>
+          org.junit.ComparisonFailure: expected:&lt;07/0[6]/2020&gt; but was:&lt;07/0[4]/2020&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at primeira_automacao.Teste.a_entrega_sera_efetuada_em(Teste.java:81)&#13;
+	at ✽.Entao a entrega sera efetuada em 07/06/2020(Teste.feature:31)&#13;
+&#13;
+
+        </failure>
+        <testcase name="Dado que a entrega eh dia 05/04/2020" classname="Cenario: Deve calcular atraso na entrega da China" time="0.0"/>
+        <testcase name="Quando a entrega atrasar em 2 dias" classname="Cenario: Deve calcular atraso na entrega da China" time="0.004"/>
+        <testcase name="Entao a entrega sera efetuada em 07/06/2020" classname="Cenario: Deve calcular atraso na entrega da China" time="0.073">
+          <failure>
+            <expected>07/06/2020</expected>
+            <actual>07/04/2020</actual>
+            org.junit.ComparisonFailure: expected:&lt;07/0[6]/2020&gt; but was:&lt;07/0[4]/2020&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at primeira_automacao.Teste.a_entrega_sera_efetuada_em(Teste.java:81)&#13;
+	at ✽.Entao a entrega sera efetuada em 07/06/2020(Teste.feature:31)&#13;
+&#13;
+
+          </failure>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

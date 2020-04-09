@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="primeira_automacao" tests="12" started="12" failures="0" errors="2" ignored="0">
+  <testsuite name="primeira_automacao.Runner" time="0.033">
+    <testsuite name="Funcionalidade: Aprender Cucumber" time="0.033">
+      <testsuite name="Cenario: Deve executar especifica��o" time="0.003">
+        <testcase name="Dado que criei o arquivo corretamente" classname="Cenario: Deve executar especifica��o" time="0.001"/>
+        <testcase name="Quando executa-los" classname="Cenario: Deve executar especifica��o" time="0.001"/>
+        <testcase name="Entao a especificacao deve finalizar com sucesso" classname="Cenario: Deve executar especifica��o" time="0.001"/>
+      </testsuite>
+      <testsuite name="Cenario: Deve incrementar contador" time="0.003">
+        <testcase name="Dado que o valor do contador e 15" classname="Cenario: Deve incrementar contador" time="0.001"/>
+        <testcase name="Quando eu incrementar 3" classname="Cenario: Deve incrementar contador" time="0.002"/>
+        <testcase name="Entao o valor do contador sera 18" classname="Cenario: Deve incrementar contador" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenario: Deve incrementar contador" time="0.002">
+        <testcase name="Dado que o valor do contador e 123" classname="Cenario: Deve incrementar contador" time="0.0"/>
+        <testcase name="Quando eu incrementar 35" classname="Cenario: Deve incrementar contador" time="0.002"/>
+        <testcase name="Entao o valor do contador sera 158" classname="Cenario: Deve incrementar contador" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenario: Deve calcular atraso na entrega" time="0.011" incomplete="true">
+        <error>cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'primeira_automacao.Teste.a_entrega_sera_efetuada_em(String) in file:/C:/ws-eclipse/projeto-java-automa%c3%a7%c3%a3o/primeira_automacao/target/test-classes/' with pattern [^a entrega sera efetuada em (\d{2})/(\d{2})/(\d{4})$] is declared with 1 parameters. However, the gherkin step has 3 arguments [07, 04, 2020]. 
+Step: Entao a entrega sera efetuada em 07/04/2020&#13;
+	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)&#13;
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)&#13;
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#13;
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+        <testcase name="Dado que a entrega eh dia 05/04/2020" classname="Cenario: Deve calcular atraso na entrega" time="0.001"/>
+        <testcase name="Quando a entrega atrasar em 2 dias" classname="Cenario: Deve calcular atraso na entrega" time="0.003"/>
+        <testcase name="Entao a entrega sera efetuada em 07/04/2020" classname="Cenario: Deve calcular atraso na entrega" time="0.007">
+          <error>cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'primeira_automacao.Teste.a_entrega_sera_efetuada_em(String) in file:/C:/ws-eclipse/projeto-java-automa%c3%a7%c3%a3o/primeira_automacao/target/test-classes/' with pattern [^a entrega sera efetuada em (\d{2})/(\d{2})/(\d{4})$] is declared with 1 parameters. However, the gherkin step has 3 arguments [07, 04, 2020]. 
+Step: Entao a entrega sera efetuada em 07/04/2020&#13;
+	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)&#13;
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)&#13;
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#13;
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

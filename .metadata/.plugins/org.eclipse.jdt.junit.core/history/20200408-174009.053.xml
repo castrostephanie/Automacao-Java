@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="primeira_automacao" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="primeira_automacao.Runner" time="0.021">
+    <testsuite name="Funcionalidade: Aprender Cucumber" time="0.021">
+      <testsuite name="Cenario: Deve executar especifica��o" time="0.021">
+        <testcase name="Dado que criei o arquivo corretamente" classname="Cenario: Deve executar especifica��o" time="0.003"/>
+        <testcase name="Quando executa-los" classname="Cenario: Deve executar especifica��o" time="0.001"/>
+        <testcase name="Entao a especificacao deve finalizar com sucesso" classname="Cenario: Deve executar especifica��o" time="0.017"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="primeira_automacao" tests="6" started="6" failures="0" errors="0" ignored="3">
+  <testsuite name="primeira_automacao.Runner" time="0.012">
+    <testsuite name="Funcionalidade: Aprender Cucumber" time="0.012">
+      <testsuite name="Cenario: Deve executar especifica��o" time="0.006">
+        <testcase name="Dado que criei o arquivo corretamente" classname="Cenario: Deve executar especifica��o" time="0.003"/>
+        <testcase name="Quando executa-los" classname="Cenario: Deve executar especifica��o" time="0.001"/>
+        <testcase name="Entao a especificacao deve finalizar com sucesso" classname="Cenario: Deve executar especifica��o" time="0.002"/>
+      </testsuite>
+      <testsuite name="Cenario: Deve incrementar contador" time="0.001" incomplete="true">
+        <skipped/>
+        <testcase name="Dado que o valor do contador � 15" classname="Cenario: Deve incrementar contador" time="0.0" ignored="true"/>
+        <testcase name="Quando eu incrementar 3" classname="Cenario: Deve incrementar contador" time="0.0" ignored="true"/>
+        <testcase name="Entao o valor do contador sera 18" classname="Cenario: Deve incrementar contador" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

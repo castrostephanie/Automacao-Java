@@ -1,0 +1,24 @@
+package primeira_automacao;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.es.Dado;
+import cucumber.api.java.it.Quando;
+import cucumber.api.java.pt.Entao;
+
+public class Teste {
+	
+	@Dado("^que criei o arquivo corretamente$")
+	public void que_criei_o_arquivo_corretamente() throws Throwable {
+	    
+	}
+
+	@Quando("^executa-los$")
+	public void executa_los() throws Throwable {
+	    
+	}
+
+	@Entao("^a especificacao deve finalizar com sucesso$")
+	public void a_especificacao_deve_finalizar_com_sucesso() throws Throwable {
+	   
+	}
+}

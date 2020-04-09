@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+C:\ws-eclipse\projeto-java-automação\.metadata\.plugins\org.eclipse.jdt.core
+2888363073.index
+1364062739.index
+1086647977.index
+2103231971.index
+2938768892.index
+2418211244.index
+4178972699.index
+1713667864.index
