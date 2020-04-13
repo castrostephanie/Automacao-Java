@@ -80,5 +80,33 @@ public class Teste {
 	   Assert.assertEquals(data, dataFormatada);
 	}
 	
-	
+	@Dado("^que o ticket( especial)? eh (A.\\d{3})$")
+	public void que_o_ticket_eh_AF(String tipo, String arg1) throws Throwable {
+	   
+	}
+
+	@Dado("^que o valor da passagem eh R\\$ (\\d+),(\\d+)$")
+	public void que_o_valor_da_passagem_eh_R$(int arg1, int arg2) throws Throwable {
+	    
+	}
+
+	@Dado("^que o nome do passageiro eh \"(.{5,20})\"$")
+	public void que_o_nome_do_passageiro_eh(String arg1) throws Throwable {
+	   
+	}
+
+	@Dado("^que o telefone do passageiro eh (9\\d{3}-\\d{4})$")
+	public void que_o_telefone_do_passageiro_eh(String telefone) throws Throwable {
+	   
+	}
+
+	@Quando("^criar os steps$")
+	public void criar_os_steps() throws Throwable {
+	    
+	}
+
+	@Entao("^o teste vai funcionar$")
+	public void o_teste_vai_funcionar() throws Throwable {
+	    
+	}
 }
