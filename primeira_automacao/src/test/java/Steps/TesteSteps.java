@@ -1,4 +1,4 @@
-package primeira_automacao;
+package Steps;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -9,7 +9,7 @@ import cucumber.api.java.es.Dado;
 import cucumber.api.java.it.Quando;
 import cucumber.api.java.pt.Entao;
 
-public class Teste {
+public class TesteSteps {
 	
 	// CENARIO 1
 	
