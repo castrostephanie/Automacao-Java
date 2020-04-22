@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 		features = "src/test/resources/features/alugarfilme.feature" , // encontrando a feature
 		glue = "Steps", // encontrando os steps
 		//tags = "nome da tag" (executando apenas uma tag)
-		plugin = "pretty" , // deixando bonitinho
+		plugin = {"pretty", "html:target/report-html"} , // deixando bonitinho e gerando relatorio
 		monochrome = true // deixando bonitinho
 )
 public class Runner {
